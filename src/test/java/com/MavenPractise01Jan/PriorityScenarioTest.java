@@ -36,7 +36,9 @@ public class PriorityScenarioTest {
 
 	@Test(description = "this is sample first testcase", priority = 3)
 	public void test1() {
-		System.out.println("This is First Testcase");
+		System.out.println("This is First Testcase part-1");
+		System.out.println("This is First Testcase part-2");
+		System.out.println("This is First Testcase part-3");
 	}
 
 	@Test(description = "this is sample second testcase", priority = 4)
